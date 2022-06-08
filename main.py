@@ -1,16 +1,25 @@
-st1, st2, st3 = input(), input(), input()
-ma = max(st1, st2, st3, key=len)
-mi = min(st1, st2, st3, key=len)
-mid = (int(len(st1)) + int(len(st2)) + int(len(st3))) - (int(ma) + int(mi))
-if mi<mid<ma:
-    print('YES')
-else:
-    print('NO')
+#Площадь правильного многоугольника с длиной стороны aaa и количеством сторон n
+from math import *
+n, a = int(input()), float(input())
+S = n * pow(a, 2) / (4 * tan(pi / n))
+print(S)
+
+
+
+# Возрастающая арифметическая прогрессия из строки
+#st1, st2, st3 = input(), input(), input()
+#ma = max(st1, st2, st3, key=len)
+#mi = min(st1, st2, st3, key=len)
+#mid = (int(len(st1)) + int(len(st2)) + int(len(st3))) - (int(ma) + int(mi))
+#if mi<mid<ma:
+#    print('YES')
+#else:
+#    print('NO')
 
 
 
 # Определение самого короткого и самого длинного названия города
-a, b, c = str(input()), str(input()), str(input())
+#a, b, c = str(input()), str(input()), str(input())
 print(min(a, b, c, key=len ))
 print(max(a, b, c, key=len ))
 # Определение самого короткого и самого длинного названия города
