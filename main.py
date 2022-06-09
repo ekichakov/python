@@ -1,4 +1,25 @@
-#Звездный прямоугольник
+# Звездный треугольник
+#n = int(input())
+#for i in range(n, 0, -1):
+#    print('*' * i)
+
+
+# Квадрат числа
+#n = int(input())
+#for i in range(n + 1):
+#    print(f'Квадрат числа {i} равен {i**2}')
+
+
+
+
+# Повторяй за мной
+#st = input()
+#for i in range(10):
+#    print(i, st)
+
+
+
+# Звездный прямоугольник
 #n = int(input())
 #for i in range(n):
 #    print('*' * 19)
@@ -14,7 +35,7 @@
 
 
 
-#Площадь правильного многоугольника с длиной стороны aaa и количеством сторон n
+# Площадь правильного многоугольника с длиной стороны aaa и количеством сторон n
 #from math import *
 #n, a = int(input()), float(input())
 #S = n * pow(a, 2) / (4 * tan(pi / n))
@@ -133,8 +154,8 @@
 
 # Определение самого короткого и самого длинного названия города
 #a, b, c = str(input()), str(input()), str(input())
-print(min(a, b, c, key=len ))
-print(max(a, b, c, key=len ))
+#print(min(a, b, c, key=len ))
+#print(max(a, b, c, key=len ))
 # Определение самого короткого и самого длинного названия города
 #city_1, city_2, city_3 = input(), input(), input()
 #ma = max(len(city_1), len(city_2), len(city_3))
