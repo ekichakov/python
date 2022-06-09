@@ -1,24 +1,40 @@
+#Звездный прямоугольник
+#n = int(input())
+#for i in range(n):
+#    print('*' * 19)
+
+#for i in range(6):
+#    print('A' * 3)
+#for i in range(5):
+#    print('B' * 4)
+#print('E')
+#for i in range(9):
+#    print('T' * 5)
+#print('G')
+
+
+
 #Площадь правильного многоугольника с длиной стороны aaa и количеством сторон n
-from math import *
-n, a = int(input()), float(input())
-S = n * pow(a, 2) / (4 * tan(pi / n))
-print(S)
+#from math import *
+#n, a = int(input()), float(input())
+#S = n * pow(a, 2) / (4 * tan(pi / n))
+#print(S)
 
 
 #Даны три вещественных числа  a, b, c. Напишите программу, которая находит вещественные корни квадратного уравнения 
-from math import *
-a, b, c = float(input()), float(input()), float(input())
-D = pow(b, 2) - (4 * a * c)
-print(D)
-if D > 0:
-    x1 = (-b - sqrt(D)) / (2 * a)
-    x2 = (-b + sqrt(D)) / (2 * a)
-    print(min(x1, x2))
-    print(max(x1, x2))
-elif D == 0:
-    print(-b / (2 * a))
-elif D < 0:
-    print('Нет корней')
+#from math import *
+#a, b, c = float(input()), float(input()), float(input())
+#D = pow(b, 2) - (4 * a * c)
+#print(D)
+#if D > 0:
+#    x1 = (-b - sqrt(D)) / (2 * a)
+#    x2 = (-b + sqrt(D)) / (2 * a)
+#    print(min(x1, x2))
+#    print(max(x1, x2))
+#elif D == 0:
+#    print(-b / (2 * a))
+#elif D < 0:
+#    print('Нет корней')
 
 
 #Пол и потолок
