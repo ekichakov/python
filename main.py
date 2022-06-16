@@ -1,19 +1,19 @@
 #max и min. Дано натуральное число n, (n≥10). Напишите программу, которая определяет его максимальную и минимальную цифры. Программа должна вывести максимальную и минимальную цифры введенного числа (с поясняющей надписью).
 n = int(input())
 largest = 0
-smallest = 0
-while n!= 0:
+smallest = 9
+while n != 0:
     last_digit = n % 10
     if last_digit > largest:
         largest = last_digit
-    n = n // 10
-while n!= 0:
-    last_digit = n % 10
-    if last_digit < largest:
-       smallest = last_digit
+    if last_digit < smallest:
+        smallest = last_digit
     n = n // 10
 print(f'Максимальная цифра равна {largest}')
 print(f'Минимальная цифра равна {smallest}')
+
+
+
 
 
 
