@@ -1,9 +1,24 @@
+#Одинаковые цифры. Дано натуральное число. Напишите программу, которая определяет, состоит ли указанное число из одинаковых цифр. Программа должна вывести «YES» если число состоит из одинаковых цифр и «NO» в противном случае.
+#n = int(input())
+#last_dg = n % 10
+#flag = True
+#while n != 0:
+#    last_digit = n % 10
+#    if last_digit != last_dg:
+#        flag = False
+#    n = n // 10
+#if flag == True:
+#    print('YES')
+#else:
+#    print('NO')
+
+
 #Вторая цифра. Дано натуральное число n (n>9). Напишите программу, которая определяет его вторую (с начала) цифру.
-n = int(input())
-while n > 9:
-    last_digit = n % 10
-    n = n // 10
-print(last_digit)
+#n = int(input())
+#while n > 9:
+#    last_digit = n % 10
+#    n = n // 10
+#print(last_digit)
 
 #n = int(input())
 #st = str(n)
