@@ -6,14 +6,22 @@
 #    среднее арифметическое его цифр;
 #    его первую цифру;
 #    сумму его первой и последней цифры.
-n = int(input())
-while n != 0:
-    last_digit
-
-
-
-
-
+#n = int(input())
+#last_dig = n % 10
+#s, count, p, d = 0, 0, 1, 0
+#while n != 0:
+#    last_digit = n % 10
+#    s += last_digit
+#    count += 1
+#    p *= last_digit
+#    d = s / count
+#    n = n // 10
+#print(s)
+#print(count)
+#print(p)
+#print(d)
+#print(last_digit)
+#print(last_dig + last_digit)
 
 
 #max и min. Дано натуральное число n, (n≥10). Напишите программу, которая определяет его максимальную и минимальную цифры. Программа должна вывести максимальную и минимальную цифры введенного числа (с поясняющей надписью).
