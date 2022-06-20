@@ -1,30 +1,32 @@
-n = int(input())
-max_digit = n % 10
-while n > 0:
-    digit = n % 10
-    if digit % 3 == 0:
-        if digit < max_digit:
-            digit = max_digit
-    n = n % 10
-if max_digit == 0:
-    print('NO')
-else:
-    print(max_digit)
+investment_amount = int(input('Введите сумму инвестирования '))
+year = int(input('Введите количество лет '))
+interest = int(input('Введите процент '))
+for i in range(1, year + 1):
+    investment_amount += investment_amount * interest / 100
+    print(f'{i + 1} й год: ', round(investment_amount))
+    print('Ежемесячный доход: ', round((investment_amount * interest / 100) / 12))
+print(f'За {year} лет: ', round(investment_amount))
 
 
+#n = int(input())
+#max_digit = n % 10
+#while n > 0:
+#    digit = n % 10
+#    if digit % 3 == 0:
+#        if digit < max_digit:
+#            digit = max_digit
+#    n = n % 10
+#if max_digit == 0:
+#    print('NO')
+#else:
+#    print(max_digit)
 
 
-
-
-n = int(input())
-while n != 0:  # n > 0
-    digit = n % 10
-    n = n // 10
-print(digit)
-
-
-
-
+#n = int(input())
+#while n != 0:  # n > 0
+#    digit = n % 10
+#    n = n // 10
+#print(digit)
 
 
 #a, b, c = int(input()), int(input()), int(input())
