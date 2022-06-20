@@ -1,11 +1,19 @@
-investment_amount = int(input('Введите сумму инвестирования '))
-year = int(input('Введите количество лет '))
-interest = int(input('Введите процент '))
-for i in range(1, year + 1):
-    investment_amount += investment_amount * interest / 100
-    print(f'{i + 1} й год: ', round(investment_amount))
-    print('Ежемесячный доход: ', round((investment_amount * interest / 100) / 12))
-print(f'За {year} лет: ', round(investment_amount))
+#Таблица-1. Дано натуральное число n  (n ≤ 9). Напишите программу, которая печатает таблицу размером n×3 состоящую из данного числа (числа отделены одним пробелом).
+#n = int(input())
+#for i in range(n):
+#    for j in range(3):
+#        print(n, end=' ')
+#    print()
+
+
+# Calc investment
+#investment_amount = int(input('Введите сумму инвестирования ')) year = int(input('Введите количество лет '))
+#interest = int(input('Введите процент '))
+#for i in range(1, year + 1):
+#    investment_amount += investment_amount * interest / 100
+#    print(f'{i + 1} й год: ', round(investment_amount))
+#    print('Ежемесячный доход: ', round((investment_amount * interest / 100) / 12))
+#print(f'За {year} лет: ', round(investment_amount))
 
 
 #n = int(input())
