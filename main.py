@@ -1,3 +1,26 @@
+# Камень, ножницы, бумага.
+#player_1 = input()
+#player_2 = input()
+#if player_1 == 'paper' and player_2 == 'paper':
+#    print('Draw!')
+#elif player_1 == 'paper' and player_2 == 'rock':
+#    print("Player 1 won!")
+#elif player_1 == 'paper' and player_2 == 'scissors':
+#    print("Player 2 won!")
+#elif player_1 == 'rock' and player_2 == 'rock':
+#    print("Draw!")
+#elif player_1 == 'rock' and player_2 == 'paper':
+#    print("Player 2 won!")
+#elif player_1 == 'rock' and player_2 == 'scissors':
+#    print("Player 1 won!")
+#elif player_1 == 'scissors' and player_2 == 'scissors':
+#    print("Draw!")
+#elif player_1 == 'scissors' and player_2 == 'paper':
+#    print("Player 1 won!")
+#elif player_1 == 'scissors' and player_2 == 'rock':
+#    print("Player 2 won!")
+
+
 #Численный треугольник 4. Дано натуральное число nnn. Напишите программу, которая печатает численный треугольник с высотой равной nnn, в соответствии с примером:
 #1
 #121
@@ -5,16 +28,14 @@
 #1234321
 #123454321
 #...
-n = int(input())
-total = 1
-for i in range(1, n + 1):
-    for j in range(1, i + 1):
-        print(j, end=' ')
-        total -= i
-        print(total)
-    print()
-
-
+#n = int(input())
+#total = 1
+#for i in range(1, n + 1):
+#    for j in range(1, i + 1):
+#        print(j, end=' ')
+#        total -= i
+#        print(total)
+#    print()
 
 
 #Численный треугольник 3. Дано натуральное число nnn. Напишите программу, которая печатает численный треугольник с высотой равной n, в соответствии с примером:
